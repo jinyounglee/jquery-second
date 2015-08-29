@@ -1,0 +1,28 @@
+css
+js
+lib
+view
+
+
+Download the compressed, production jQuery 1.11.3 -- 압축버전 
+ 
+jquery 셀렉터 
+
+$ = jQuery.
+         $.
+
+
+$('input[type=email]')   아무것도 없으면 태그명으로 셀렉
+$('.test > font') test  클래스 밑에 font 태그
+$('.test font')
+
+
+js를 객체화 하는 이유는 
+변수명이 충돌나지 않게 하기 위해서 
+
+
+function(arr){
+	var arr = arr || [];   // 오류는 뱉지 않는다
+
+}
+
